@@ -6,7 +6,7 @@ Extended Demo has new samples that have appeared in the Espresso Logic Blog Post
 See Espresso Logic Blog posts for details
 ##Samples Include##
 1. Multiple Table insert using single POST (PersonSetup)
-2. Credit Card Validation
+2. Credit Card Validation (http://www.espressologic.com/validation_logic_credit_card_payments/)
 3. Reset Password Design Pattern
 4. Scheduled transactions trigger rules
 
