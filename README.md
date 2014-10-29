@@ -4,6 +4,7 @@ ExtendedDemo
 Extended Demo has new samples that have appeared in the Espresso Logic Blog Posts
 
 See Espresso Logic Blog posts for details
+##Samples Include##
 1. Multiple Table insert using single POST (PersonSetup)
 2. Credit Card Validation
 3. Reset Password Design Pattern
