@@ -1,0 +1,802 @@
+[
+  {
+    "@metadata": {
+      "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport/1014",
+      "checksum": "A:b8d351be0f8f3722",
+      "nonpersistent": [
+        "exportVersion"
+      ]
+    },
+    "ident": 1014,
+    "ts": "2014-10-21T15:52:50.000+0000",
+    "exportVersion": "v2",
+    "name": "Extended Demo",
+    "url_name": "data-20141021-155041.828p0000",
+    "comments": "ko7naequ",
+    "status": "I",
+    "account_ident": 1000,
+    "authprovider_ident": 1000,
+    "Users": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Users/1020",
+          "checksum": "A:7ef4b9d5a50b0497"
+        },
+        "ident": 1020,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "name": "demo",
+        "fullname": "Demo user",
+        "email": "admin@espressologic.com",
+        "status": "A",
+        "roles": "App owner,",
+        "data": "",
+        "comments": null,
+        "apikey_lifespan": null,
+        "password_hash": "0jPdAc/9JfQRjaYbaAKGK4wzz8ZMmU6wi+DU+5RXNmzn8hmPDfr20lqFpn101eyONMN3z9AFDPvvCuxKhdK5zw==",
+        "password_salt": "iBxiSYwDusZLyG+UxTi+dax0jBYYfwbTm9ouVJGN",
+        "project_ident": 1014
+      }
+    ],
+    "DbaseSchemas": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.DbaseSchemas/1018",
+          "checksum": "A:e188f6bdf12ee6fa"
+        },
+        "ident": 1018,
+        "name": "Extended Demo",
+        "comments": null,
+        "url": "jdbc:mysql://demo-ext-srv.my.espressologic.com:3306/espresso_data",
+        "catalog_name": "espresso_data",
+        "schema_name": null,
+        "user_name": "espresso_data",
+        "password": null,
+        "salt": null,
+        "active": true,
+        "status": null,
+        "dbasetype_ident": 1,
+        "prefix": "main",
+        "TableInfos": [
+        ]
+      }
+    ],
+    "ApiVersions": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions/1014",
+          "checksum": "A:9bf0f86f7e8f5ff0"
+        },
+        "ident": 1014,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "name": "v1",
+        "comments": "",
+        "project_ident": 1014,
+        "Resources": [
+          {
+            "@metadata": {
+              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1316",
+              "checksum": "A:4048cd470b3e751a"
+            },
+            "ident": 1316,
+            "ts": "2014-10-21T15:50:45.000+0000",
+            "resource_type_ident": 1,
+            "prefix": "main",
+            "table_name": "Address",
+            "name": "Address",
+            "description": null,
+            "is_collection": "Y",
+            "join_condition": "PersonEntityID= [PersonEntityID]",
+            "filter": null,
+            "sorting": null,
+            "attach_path": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "filter_code": "",
+            "serial_filter": null,
+            "prop1": null,
+            "prop2": null,
+            "prop3": null,
+            "prop4": null,
+            "prop5": null,
+            "container_ident": 1319,
+            "root_ident": 1319,
+            "linked_ident": null,
+            "apiversion_ident": 1014,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1673",
+                  "checksum": "A:17feeaf6dccd3d01"
+                },
+                "ident": 1673,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "AddressID",
+                "description": null,
+                "column_name": "AddressID",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1674",
+                  "checksum": "A:41e5524c6d8f12f5"
+                },
+                "ident": 1674,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "PersonEntityID",
+                "description": null,
+                "column_name": "PersonEntityID",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1675",
+                  "checksum": "A:b5b0a3ba0baca5ab"
+                },
+                "ident": 1675,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "AddressLine1",
+                "description": null,
+                "column_name": "AddressLine1",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1676",
+                  "checksum": "A:8588f6a2abcb53d6"
+                },
+                "ident": 1676,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "AddressLine2",
+                "description": null,
+                "column_name": "AddressLine2",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1677",
+                  "checksum": "A:a1b39f353cfc9a50"
+                },
+                "ident": 1677,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "City",
+                "description": null,
+                "column_name": "City",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1678",
+                  "checksum": "A:e42dcc8e6ed216a7"
+                },
+                "ident": 1678,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "StateProvinceID",
+                "description": null,
+                "column_name": "StateProvinceID",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1679",
+                  "checksum": "A:9b13fa0529e1f148"
+                },
+                "ident": 1679,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "PostalCode",
+                "description": null,
+                "column_name": "PostalCode",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1680",
+                  "checksum": "A:41d746b5f9392480"
+                },
+                "ident": 1680,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "AddressTypeID",
+                "description": null,
+                "column_name": "AddressTypeID",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1681",
+                  "checksum": "A:48a8416c7844d3c1"
+                },
+                "ident": 1681,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "ModifiedDate",
+                "description": null,
+                "column_name": "ModifiedDate",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1316,
+                "code_type": null
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1317",
+              "checksum": "A:d4a1e6a4f2d4cf75"
+            },
+            "ident": 1317,
+            "ts": "2014-10-21T15:50:45.000+0000",
+            "resource_type_ident": 1,
+            "prefix": "main",
+            "table_name": "EmailAddress",
+            "name": "Email",
+            "description": null,
+            "is_collection": "Y",
+            "join_condition": "PersonEntityID= [PersonEntityID]",
+            "filter": null,
+            "sorting": null,
+            "attach_path": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "filter_code": "",
+            "serial_filter": null,
+            "prop1": null,
+            "prop2": null,
+            "prop3": null,
+            "prop4": null,
+            "prop5": null,
+            "container_ident": 1319,
+            "root_ident": 1319,
+            "linked_ident": null,
+            "apiversion_ident": 1014,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1685",
+                  "checksum": "A:6531b13bd5711035"
+                },
+                "ident": 1685,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "EmailAddress",
+                "description": null,
+                "column_name": "EmailAddress",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1317,
+                "code_type": null
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1319",
+              "checksum": "A:a665880652111949"
+            },
+            "ident": 1319,
+            "ts": "2014-10-21T15:50:45.000+0000",
+            "resource_type_ident": 1,
+            "prefix": "main",
+            "table_name": "Person",
+            "name": "PersonSetup",
+            "description": null,
+            "is_collection": "Y",
+            "join_condition": null,
+            "filter": null,
+            "sorting": null,
+            "attach_path": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "filter_code": "",
+            "serial_filter": null,
+            "prop1": null,
+            "prop2": null,
+            "prop3": null,
+            "prop4": null,
+            "prop5": null,
+            "container_ident": null,
+            "root_ident": 1319,
+            "linked_ident": null,
+            "apiversion_ident": 1014,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1690",
+                  "checksum": "A:dc604a4db063ed50"
+                },
+                "ident": 1690,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "Title",
+                "description": null,
+                "column_name": "Title",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1319,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1691",
+                  "checksum": "A:96c0e9df43ad0f7c"
+                },
+                "ident": 1691,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "FirstName",
+                "description": null,
+                "column_name": "FirstName",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1319,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1692",
+                  "checksum": "A:ac6f7ae425837cdb"
+                },
+                "ident": 1692,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "MiddleName",
+                "description": null,
+                "column_name": "MiddleName",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1319,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1693",
+                  "checksum": "A:c2cd7a710ae5cf90"
+                },
+                "ident": 1693,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "LastName",
+                "description": null,
+                "column_name": "LastName",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1319,
+                "code_type": null
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1318",
+              "checksum": "A:1e8713aa81906065"
+            },
+            "ident": 1318,
+            "ts": "2014-10-21T15:50:45.000+0000",
+            "resource_type_ident": 1,
+            "prefix": "main",
+            "table_name": "Password",
+            "name": "Password",
+            "description": null,
+            "is_collection": "Y",
+            "join_condition": "PersonEntityID= [PersonEntityID]",
+            "filter": null,
+            "sorting": null,
+            "attach_path": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "filter_code": "",
+            "serial_filter": null,
+            "prop1": null,
+            "prop2": null,
+            "prop3": null,
+            "prop4": null,
+            "prop5": null,
+            "container_ident": 1319,
+            "root_ident": 1319,
+            "linked_ident": null,
+            "apiversion_ident": 1014,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1686",
+                  "checksum": "A:c7026b0494fc151f"
+                },
+                "ident": 1686,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "PasswordHash",
+                "description": null,
+                "column_name": "PasswordHash",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1318,
+                "code_type": null
+              }
+            ]
+          },
+          {
+            "@metadata": {
+              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources/1320",
+              "checksum": "A:3683ac6f322ee49b"
+            },
+            "ident": 1320,
+            "ts": "2014-10-21T15:50:45.000+0000",
+            "resource_type_ident": 1,
+            "prefix": "main",
+            "table_name": "PersonPhone",
+            "name": "Phone",
+            "description": null,
+            "is_collection": "Y",
+            "join_condition": "PersonEntityID= [PersonEntityID]",
+            "filter": null,
+            "sorting": null,
+            "attach_path": null,
+            "caching": null,
+            "custom_class": null,
+            "code_text": null,
+            "filter_code": "",
+            "serial_filter": null,
+            "prop1": null,
+            "prop2": null,
+            "prop3": null,
+            "prop4": null,
+            "prop5": null,
+            "container_ident": 1319,
+            "root_ident": 1319,
+            "linked_ident": null,
+            "apiversion_ident": 1014,
+            "ResourceAttributes": [
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1698",
+                  "checksum": "A:1d40c265d9bae8c3"
+                },
+                "ident": 1698,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "PhoneNumber",
+                "description": null,
+                "column_name": "PhoneNumber",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1320,
+                "code_type": null
+              },
+              {
+                "@metadata": {
+                  "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiVersions.Resources.ResourceAttributes/1699",
+                  "checksum": "A:31cda0380692d33a"
+                },
+                "ident": 1699,
+                "ts": "2014-10-21T15:50:42.000+0000",
+                "name": "PhoneNumberTypeID",
+                "description": null,
+                "column_name": "PhoneNumberTypeID",
+                "format": null,
+                "formula": null,
+                "is_defined_key_part": false,
+                "resource_ident": 1320,
+                "code_type": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ProjectOptions": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1187",
+          "checksum": "A:f22e9542b10307d4"
+        },
+        "ident": 1187,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "false",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 1
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1188",
+          "checksum": "A:6fcc2b4b06548d0b"
+        },
+        "ident": 1188,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "http://www.espressologic.com/rest/",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 2
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1189",
+          "checksum": "A:d7c289eacce66000"
+        },
+        "ident": 1189,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "false",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 3
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1190",
+          "checksum": "A:c80e143d6f819fa7"
+        },
+        "ident": 1190,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "@metadata",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 4
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1191",
+          "checksum": "A:324f8f294816c8c9"
+        },
+        "ident": 1191,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "2000",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 5
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1192",
+          "checksum": "A:77a078d6b104a581"
+        },
+        "ident": 1192,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "6000",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 6
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1193",
+          "checksum": "A:2f0a23a291afadf1"
+        },
+        "ident": 1193,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "20",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 7
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1194",
+          "checksum": "A:3d03167b43f949b6"
+        },
+        "ident": 1194,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "5000",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 8
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1195",
+          "checksum": "A:e8f77b422bd2311b"
+        },
+        "ident": 1195,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "20",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 9
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1196",
+          "checksum": "A:632c82d65c1e9534"
+        },
+        "ident": 1196,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "100",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 10
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1197",
+          "checksum": "A:daa34caecc711196"
+        },
+        "ident": 1197,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "2000",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 11
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1198",
+          "checksum": "A:c2c6de927e8a7217"
+        },
+        "ident": 1198,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": "false",
+        "project_ident": 1014,
+        "projectoptiontype_ident": 12
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1199",
+          "checksum": "A:187370c7809f928b"
+        },
+        "ident": 1199,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": null,
+        "project_ident": 1014,
+        "projectoptiontype_ident": 13
+      },
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectOptions/1200",
+          "checksum": "A:b9072d997ecfd51e"
+        },
+        "ident": 1200,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "option_value": null,
+        "project_ident": 1014,
+        "projectoptiontype_ident": 14
+      }
+    ],
+    "ProjectLibraries": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectLibraries/1014",
+          "checksum": "A:240d9db5b79317eb"
+        },
+        "ident": 1014,
+        "ts": "2014-10-21T15:51:23.000+0000",
+        "logic_library_ident": 1000,
+        "project_ident": 1014,
+        "Library": {
+          "@metadata": {
+            "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ProjectLibraries.Library/1000",
+            "checksum": "A:0d905e98ce24272a"
+          },
+          "ident": 1000,
+          "name": "Credit Card Check"
+        }
+      }
+    ],
+    "Applications": [
+    ],
+    "Rules": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Rules/1112",
+          "checksum": "A:ffb2491f01c98260"
+        },
+        "ident": 1112,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "entity_name": "main:Person",
+        "attribute_name": null,
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": "javascript",
+        "prop5": null,
+        "rule_text1": "row.ModifiedDate = new Date();\nrow.CreatedDate = new Date();",
+        "rule_text2": null,
+        "rule_text3": null,
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Early event: row.ModifiedDate = new Date();\nrow.CreatedDate = new Date();.null",
+        "verbs": "INSERT,",
+        "comments": null,
+        "active": true,
+        "project_ident": 1014,
+        "ruletype_ident": 8
+      }
+    ],
+    "Relationships": [
+    ],
+    "ApiKeys": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.ApiKeys/1175",
+          "checksum": "A:6bb5bad382f5db2f"
+        },
+        "ident": 1175,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "name": "Broad access",
+        "description": null,
+        "apikey": "data_full",
+        "status": "A",
+        "default_access": null,
+        "expiration": null,
+        "logging": "*=FINE",
+        "user_identifier": null,
+        "data": null,
+        "origin": null,
+        "project_ident": 1014
+      }
+    ],
+    "EventHandlers": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.EventHandlers/1002",
+          "checksum": "A:50b6f707990b066c"
+        },
+        "ident": 1002,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "name": "Set Modified Date",
+        "description": "insert new Date for any field called modified date",
+        "code": "if(\"POST\" == req.verb || \"PUT\" == req.verb){\n    log.debug(\"POST or PUT Request Event \"+req.resourceName);\n    if( \"demo-ext/data/v1/PersonSetup\" == req.resourceName){\n        log.debug(\"start\");\n        var today = new Date();\n        //var data = JSON.parse(json);\n        //log.debug(json);\n        //json.ModifiedDate = today;\n        \n    }\n}\n",
+        "active": true,
+        "eventtype_ident": 1,
+        "code_type": null,
+        "project_ident": 1014
+      }
+    ],
+    "Handlers": [
+    ],
+    "Roles": [
+      {
+        "@metadata": {
+          "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles/1025",
+          "checksum": "A:fafa39d62a432743"
+        },
+        "ident": 1025,
+        "ts": "2014-10-21T15:50:42.000+0000",
+        "name": "App owner",
+        "description": "Full permissions on the entire project",
+        "default_permission": "A",
+        "default_apivisibility": "TVPRM",
+        "project_ident": 1014,
+        "ApiKeyRoles": [
+          {
+            "@metadata": {
+              "href": "http://localhost:8080/KahunaService/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/1114",
+              "checksum": "A:b06286de1b0cae37"
+            },
+            "ident": 1114,
+            "ts": "2014-10-21T15:50:42.000+0000",
+            "apikey_ident": 1175,
+            "role_ident": 1025
+          }
+        ],
+        "PermissionData": [
+        ],
+        "TablePermissions": [
+        ]
+      }
+    ]
+  }
+]
